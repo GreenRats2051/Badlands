@@ -8,6 +8,8 @@ public class PlayerMovement : MonoBehaviour
     private float force;
     [SerializeField]
     private float rotationSpeed;
+    [SerializeField]
+    private float currentRotation;
 
     public void Walk(bool moveLeft, bool moveRight, bool moveUp)
     {
@@ -15,6 +17,7 @@ public class PlayerMovement : MonoBehaviour
         {
             rigidbody.velocity = Vector2.zero;
             Debug.Log("You fly.");
+
             if (moveLeft)
             {
                 Debug.Log("You move left");
@@ -25,10 +28,10 @@ public class PlayerMovement : MonoBehaviour
                 Debug.Log("You move right");
                 rigidbody.AddForce(Vector2.right * 2, ForceMode2D.Impulse);
             }
+
             rigidbody.AddForce(Vector2.up * force, ForceMode2D.Impulse);
-            Quaternion currentRotation = transform.rotation;
-            Quaternion targetRotation = Quaternion.Euler(Vector3.zero);
-            transform.rotation = Quaternion.RotateTowards(currentRotation, targetRotation, rotationSpeed * Time.deltaTime);
+            currentRotation = transform.rotation.eulerAngles.z;
+            transform.rotation = Quaternion.Euler(0, 0, Mathf.LerpAngle(currentRotation, 0, Time.deltaTime * rotationSpeed));
         }
     }
 }
