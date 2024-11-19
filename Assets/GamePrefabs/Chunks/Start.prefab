@@ -139,6 +139,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6491582737173976848}
+<<<<<<< HEAD
+  - component: {fileID: -1229376310625952169}
+=======
+>>>>>>> e8aee989437b84d97b56c75750cf0eecb16ce432
   m_Layer: 0
   m_Name: Start
   m_TagString: Untagged
@@ -164,6 +168,28 @@ Transform:
   - {fileID: 5926063495159115779}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
+--- !u!114 &-1229376310625952169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3709171795885068390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 545e155a81c0e064e90b25548de6a128, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chunks:
+  - {fileID: 1419294235296517814, guid: 862e1ca0618b295459c5ac79f0207f13, type: 3}
+  - {fileID: 5792710376413710252, guid: bf8c65127474bca4fbe313413898a289, type: 3}
+  - {fileID: 764184143036822460, guid: de98757862fae2c44a963b32f4c367a5, type: 3}
+  - {fileID: 3319835623821633405, guid: b4be5ee9247a21041865b03e0c811a8e, type: 3}
+  end: {fileID: 1582943785253025671, guid: c0b9aeb995821e4409e56b767bff2322, type: 3}
+  maxChunks: 0
+=======
+>>>>>>> e8aee989437b84d97b56c75750cf0eecb16ce432
 --- !u!1 &3775528093545901658
 GameObject:
   m_ObjectHideFlags: 0

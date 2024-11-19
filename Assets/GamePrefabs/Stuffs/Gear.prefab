@@ -9,6 +9,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7765663102408346139}
+<<<<<<< HEAD
+  - component: {fileID: 1772133381337989539}
+=======
+>>>>>>> e8aee989437b84d97b56c75750cf0eecb16ce432
   m_Layer: 0
   m_Name: Gear
   m_TagString: Untagged
@@ -32,6 +36,22 @@ Transform:
   - {fileID: 6277474799621808760}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
+--- !u!114 &1772133381337989539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 612957089466584870}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f75d8634c840d744c89e10c3f5e9a521, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationSpeed: 10
+=======
+>>>>>>> e8aee989437b84d97b56c75750cf0eecb16ce432
 --- !u!1 &983458512987362147
 GameObject:
   m_ObjectHideFlags: 0

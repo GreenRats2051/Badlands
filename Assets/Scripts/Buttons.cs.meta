@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Scripts/Buttons.cs.meta
+guid: eec8c9bf4e7a70d408762c57716a5ad4
+========
+guid: fe66157ce2f3e23478e1caf03b14e075
+>>>>>>>> e8aee989437b84d97b56c75750cf0eecb16ce432:Assets/Scripts/Player/InputListener.cs.meta
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Scripts/LevelGeneration.cs.meta
+guid: 545e155a81c0e064e90b25548de6a128
+========
+guid: b393fcb34d1a0984c803ec374aeddedf
+>>>>>>>> e8aee989437b84d97b56c75750cf0eecb16ce432:Assets/Scripts/Player/PlayerShoot.cs.meta
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

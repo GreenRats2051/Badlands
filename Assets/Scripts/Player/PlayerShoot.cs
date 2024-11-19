@@ -3,7 +3,11 @@ using UnityEngine;
 public class PlayerShoot : MonoBehaviour
 {
     [SerializeField]
+<<<<<<< HEAD
+    private Transform startShoot;
+=======
     private Transform player;
+>>>>>>> e8aee989437b84d97b56c75750cf0eecb16ce432
     [SerializeField]
     private GameObject bullet;
     [SerializeField]
@@ -29,6 +33,12 @@ public class PlayerShoot : MonoBehaviour
         Vector3 pushDirection = -shootDirection;
         rigidbody2D.AddForce(pushDirection * pushForce, ForceMode2D.Impulse);
 
+<<<<<<< HEAD
+        GameObject bulletInstantiate = Instantiate(bullet, startShoot.position, Quaternion.identity);
+        bulletInstantiate.GetComponent<Rigidbody2D>().AddForce(startShoot.right * 20, ForceMode2D.Impulse);
+        Destroy(bulletInstantiate, 5);
+=======
         GameObject bulletInstantiate = Instantiate(bullet, transform.position, Quaternion.identity);
+>>>>>>> e8aee989437b84d97b56c75750cf0eecb16ce432
     }
 }

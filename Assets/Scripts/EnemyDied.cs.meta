@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Scripts/EnemyDied.cs.meta
+guid: 29052ed3af8b0a247986dbaa8406e258
+========
+guid: 5c02294b4dc5af149b57bf9505dfdc76
+>>>>>>>> e8aee989437b84d97b56c75750cf0eecb16ce432:Assets/Scripts/Player/PlayerBullet.cs.meta
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
